@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32F446RE",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/interupt_driven_state_machine_root.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw",
+            "servertype": "stlink",
+            "device": "STM32F446RE",
+            "interface": "swd",
+            "serialNumber": "",
+            "v1": false,
+            "serverpath": "C:\\ST\\STM32CubeIDE_1.13.1\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.2.100.202501151542\\tools\\bin\\ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "C:\\ST\\STM32CubeIDE_1.13.1\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.100.202412061334\\tools\\bin",
+            "svdFile": "C:\\ST\\STM32CubeIDE_1.13.1\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.productdb.debug_2.2.100.202502251557\\resources\\cmsis\\STMicroelectronics_CMSIS_SVD\\STM32F446.svd",
+            "preLaunchTask": "Build"
+        }
+    ]
+}
